@@ -7,7 +7,7 @@ It is assumed that you already have `npm`, `gulp` and `bower` installed.
 	
 1. clone the repo
 
-			git clone https://github.com/jh3y/angular-require-gulp-seed.git	
+			git clone https://github.com/khaledalyawad/angular-require-gulp-scss-lazyload.git	
 
 2. install node dependencies
 
