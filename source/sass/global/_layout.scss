@@ -1,0 +1,21 @@
+
+/* layout.scss */
+
+.layout {
+  margin: 0 40px;
+}
+.layout-appheading {
+  position: relative;
+}
+
+//calendar layout
+.full button span {
+  background-color: limegreen;
+  border-radius: 32px;
+  color: $black-color;
+}
+.partially button span {
+  background-color: orange;
+  border-radius: 32px;
+  color: $black-color;
+}

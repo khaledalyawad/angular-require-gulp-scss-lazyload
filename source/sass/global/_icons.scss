@@ -1,0 +1,25 @@
+/* icons.scss */
+
+%icon-svg {
+  background-repeat: no-repeat;
+}
+
+.icon-svg-workflow-error {
+  background-image: url('../images/wizard_error.svg');
+  @extend %icon-svg;
+}
+
+.icon-svg-workflow-active {
+  background-image: url('../images/wizard_active.svg');
+  @extend %icon-svg;
+}
+
+.icon-svg-workflow-common {
+  background-image: url('../images/wizard_common.svg');
+  @extend %icon-svg;
+}
+
+.icon-svg-workflow-done {
+  background-image: url('../images/wizard_done.svg');
+  @extend %icon-svg;
+}

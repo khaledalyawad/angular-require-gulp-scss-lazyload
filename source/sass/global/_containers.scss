@@ -1,0 +1,27 @@
+
+/* containers.scss */
+
+.container-shadow {  -moz-box-shadow:    3px 3px 5px 6px $brand-grayish-cyan;
+  -webkit-box-shadow: 1px 1px 1px 1px $brand-grayish-cyan;
+  box-shadow:         1px 1px 1px 1px $brand-grayish-cyan;}
+.cell-height{
+	height: 80px;
+}
+
+.drop-draggable {
+	border: 3px dotted $brand-grayish-cyan; height:80px !important;
+	border-radius: 5px;
+	}
+
+.panel .accordion-toggle:hover{
+  cursor:pointer;
+}
+
+@media (min-width: 992px){
+	.rm-pr-rs{
+		padding-right: 0 !important;
+	}
+	.rm-pl-rs{
+		padding-left: 0 !important;
+	}
+}

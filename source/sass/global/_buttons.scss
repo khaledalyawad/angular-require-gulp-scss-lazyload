@@ -1,0 +1,27 @@
+
+/* buttons.scss */
+
+.btn-bar {
+  min-width: 60px;
+  padding: 0 8px;
+  line-height: 1.4rem;
+  height: 2.4rem;
+  font-size: 1.2rem;
+  cursor: pointer !important;
+  white-space: nowrap;
+
+}
+
+.btn-bg-grey-gradient {
+  background: -webkit-linear-gradient($white-color, $brand-grayish-cyan); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($white-color, $brand-grayish-cyan); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($white-color, $brand-grayish-cyan); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($white-color, $brand-grayish-cyan); /* Standard syntax (must be last) */
+}
+
+.btn-bg-blue-gradient {
+  background: -webkit-linear-gradient($brand-strong-blue, $dark-blue-color); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($brand-strong-blue, $dark-blue-color); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($brand-strong-blue, $dark-blue-color); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($brand-strong-blue, $dark-blue-color); /* Standard syntax (must be last) */
+}
