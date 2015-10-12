@@ -1,4 +1,5 @@
 # angular-require-gulp-scss-lazyload
+This is an angular seed with gulp, require.js and scss. Spiced with an additional lazy-loading module that lazy load your js files and inject them to angular on the fly. Bootstrap is also included in this seed. 
 
 To run the seed just
 $ gulp
