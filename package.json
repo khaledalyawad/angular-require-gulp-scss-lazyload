@@ -1,0 +1,29 @@
+{
+  "name": "angular-require-gulp-scss-lazyload",
+  "description": "angular-require-gulp-scss-lazyload",
+  "repository": "https://github.com/khaledalyawad/angular-require-gulp-scss-lazyload.git",
+  "version": "0.0.9",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer-core": "=5.2.1",
+    "browser-sync": "^2.10.0",
+    "event-stream": "=3.3.0",
+    "gulp": "^3.8.11",
+    "gulp-if": "^2.0.0",
+    "gulp-livereload": "=3.8.0",
+    "gulp-ng-annotate": "=0.5.2",
+    "gulp-postcss": "=4.0.3",
+    "gulp-prompt": "^0.1.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-requirejs": "git://github.com/StarterSquad/gulp-requirejs.git",
+    "gulp-sass": "^2.1.0",
+    "gulp-task-loader-with-params": "=1.0.0",
+    "gulp-uglify": "=1.1.0",
+    "gulp-util": "=3.0.4",
+    "postcss-assets": "^2.1.0",
+    "underscore": "=1.8.2"
+  },
+  "dependencies": {
+    "amdefine": "^1.0.0"
+  }
+}
